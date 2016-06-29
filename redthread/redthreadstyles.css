@@ -115,7 +115,7 @@ ul.topnav li.right {float: right;}
 
  .big_canvas {
 
-	background-image:url('/Users/sampada/Desktop/redthread/assets/logo/canvas.png'); 
+	background-image:url('assets/logo/canvas.png'); 
 	width:100% ;
 	height: 650px;
 }
@@ -231,7 +231,7 @@ ul.topnav li.right {float: right;}
 .redthread-facts {
 	width:100%;
 	
-	background-image:url('/Users/sampada/Desktop/redthread/assets/logo/redthread-initiatve.png');
+	background-image:url('assets/logo/redthread-initiatve.png');
 }
 
 

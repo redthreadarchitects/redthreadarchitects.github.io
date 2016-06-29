@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" type="text/css" href="redthreadstyles.css">
+    <link rel="icon" href="../../favicon.ico">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <title>redthread</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="starter-template.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!--===================smooth scroll============-->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+<script  type="text/javascript">
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+<!-- End of SMOOTH SCROLL -->
+   
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+    
+  </head>
+
+
+ <body>
+   
+     <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">WebSiteName</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      
+      <ul class="nav navbar-nav navbar-right">
+        
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+   <div class="big_canvas">   
+      <div class="container">
+        <div class="featured"> 
+          <p class="latest-interview-label">Latest interview</p>
+          <h1 class="interview-name">Dominic Dube</h1>
+          <p class="interview-designation">Principal architect of DDIR</p>
+          <a  class="interview-link" href="#main_interview"><div class=" interview-btn">Watch interview</div></a>
+        </div>
+        
+      </div> <!---container -->
+    </div>  <!---bigcanvas end -->
+  
+    <div class="container"> <!-- cover ---->
+
+      <!-- Main video  --->
+      <!-- 16:9 aspect ratio -->
+      <div class="main-interview-frame embed-responsive embed-responsive-16by9" id="main_interview">
+        <iframe  class="embed-responsive-item" src="https://www.youtube.com/embed/Z8q5vTSWcnA" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div> 
+    <!--container -->
+
+    <!-- video playlist -->
+     
+    <div class="playlist_container">  
+     <!-- <div class="container"> -->
+        <h1 class="text-center sub_heading"> Interviews </h1>
+        <div class="row">
+        <!--row 1 -->
+          <div class=" col-lg-4 playlist ">
+            <!--<div class="interview-clip"></div> -->
+            <iframe width="420" height="420" src="https://www.youtube.com/embed/m0clkryX0NI" frameborder="0" allowfullscreen></iframe>
+            <h2 class="text-left video-title">Étendre I Full Interview </h2>
+            <p class="text-left video-excerpt">Redthread presents an exclusive interview with Mr. Venkatesh R. who is the Principle Architect of Entrende - an upcoming architectural firm in Bangalore. Check out his discourse on the fusion of architecture with social responsibility.</p>
+          </div>
+          <div class=" col-lg-4 playlist">
+            <iframe width="420" height="420" src="https://www.youtube.com/embed/AO9KgiSoZ1c" frameborder="0" allowfullscreen></iframe>
+            <h2 class="text-left video-title">DDIR I Interview Trailer </h2>
+            <p class="text-left video-excerpt">Redthread presents an exclusive interview with Mr. Dominic, who is the Principle Architect of DDIR - an established architectural firm in Bangalore. Check out his discourse on the fusion of architecture with art. Here's a sneak peek of the interview. Full version to be shared soon</p>
+          </div> 
+          <div class="col-lg-4 playlist">
+            <iframe width="420" height="420" src="https://www.youtube.com/embed/M9Z4LbZLW2k" frameborder="0" allowfullscreen></iframe>
+            <h2 class="text-left video-title">Étendre I Interview Trailer </h2>
+            <p class="text-left video-excerpt">Redthread presents an exclusive interview with Mr. Venkatesh R. who is the Principle Architect of Entrende - an upcoming architectural firm in Bangalore. Check out his discourse on the fusion of architecture with social responsibility.</p>
+          </div> 
+        </div>
+        <!--row1 ends-->
+
+
+        <!--row 2 -->      
+        <!--<div class="row">
+          <div class="col-lg-4 playlist">
+            <iframe  width="420" height="420" src="https://www.youtube.com/embed/czWhVBmrNPQ" frameborder="0" allowfullscreen></iframe>
+            <h2 class="text-left video-title">Dominic Dube</h2>
+            <p class="text-left video-excerpt">Redthread presents an exclusive interview with Mr. Dominic, who is the Principle Architect of DDIR - an established architectural firm in Bangalore. Check out his discourse on the fusion of architecture with art. Here's a sneak peek of the interview. Full version to be shared soon</p>
+          </div>
+          <div class="col-lg-4 playlist">
+            <iframe width="420" height="420" src="https://www.youtube.com/embed/czWhVBmrNPQ" frameborder="0" allowfullscreen></iframe>
+            <h2 class="text-left video-title">Dominic Dube</h2>
+            <p class="text-left video-excerpt"></p>
+          </div>
+          <div class="col-lg-4 playlist">
+            <iframe width="420" height="420" src="https://www.youtube.com/embed/czWhVBmrNPQ" frameborder="0" allowfullscreen></iframe>
+            <h2 class="text-left video-title">Dominic Dube</h2>
+            <p class="text-left video-excerpt">Redthread presents an exclusive interview with Mr. Dominic, who is the Principle Architect of DDIR - an establishe</p>
+          </div>  
+        </div>
+        <!--row ---->
+     <!-- </div> <!--container -->
+    </div>
+    
+
+    <!--video playlist -->
+     
+    <!-- ===================ABOUT US============================ -->
+    <div class="about_us" id="about">
+     <div class=" container">
+         <h1 class="text-center sub_heading">this architect’s ecosystem includes… </h1>
+         <div class="row">
+           <div class="col-lg-4">
+             <img class=" img_thumbnail" src="/Users/sampada/Desktop/redthread/assets/logo/1.svg" alt="Generic placeholder image" width="35" height="35">
+             <h2 class="video-title">Right Job </h2>
+             <p class="video_excerpt">Build your profile, sync and publish.We take the criteria you put into your profile and search our network for perfect opportunities, that match your needs based on your style,  location and more. </p>
+           </div><!-- /.col-lg-4 -->
+           <div class="col-lg-4">
+             <img class=" img_thumbnail" src="/Users/sampada/Desktop/redthread/assets/logo/2.svg" alt="Generic   placeholder image" width="35" height="35">
+             <h2 class="video-title">Right Candidate</h2>
+             <p class="video_excerpt">Custom recommendations for each job you post. From interns, junior architects to practised professionals, we'll recommend the right creative talent  based on your style, location and more.</p>  
+           </div><!-- /.col-lg-4 -->
+           <div class="col-lg-4">
+             <img class="" src="/Users/sampada/Desktop/redthread/assets/logo/3.svg" alt="Generic  placeholder image" width="35" height="35">
+             <h2 class="video-title">Portfolio I Resume </h2>
+             <p class="video_excerpt">Meticulously curated portfolios and a comprehensive resource of project examples. Bookmark or rate your favorite portfolios to convey your interest in a firm or a candidate. </p>
+           </div><!-- /.col-lg-4 -->
+         </div><!--row-->
+        
+
+         <div class="row">
+           <div class="col-lg-4">
+             <img class=" img_thumbnail" src="/Users/sampada/Desktop/redthread/assets/logo/4.svg" alt="Generic placeholder image"  width="35" height="35">
+            <h2 class="video-title">Great Projects  </h2>
+            <p class="video_excerpt">Most  ideal platform for freelancers. By matching your scope of work  with needs of clients, we will align suitable projects for you to associate with.</p>  
+           </div><!-- /.col-lg-4 -->
+           <div class="col-lg-4">
+             <img class=" img_thumbnail" src="/Users/sampada/Desktop/redthread/assets/logo/5.svg" alt="Generic placeholder image" width="35" height="35">
+             <h2 class="video-title">Inspiration </h2>
+             <p class="video_excerpt">Watch. Reflect. Apply.Our exclusive interviews with acclaimed architects will give you the much-needed inspiration to push your boundaries.</p>    
+           </div><!-- /.col-lg-4 -->
+           <div class="col-lg-4">
+             <img class=" img_thumbnail" src="/Users/sampada/Desktop/redthread/assets/logo/6.svg" alt="Generic placeholder image" width="35" height="35">
+             <h2 class="video-title">Happenings</h2>
+             <p class="video_excerpt">A one-stop destination to keep track of various competitions, workshops and events in the city. With us, you always remain in the loop.</p>
+           </div><!-- /.col-lg-4 -->
+         </div><!-- /.row -->
+
+
+        <div class="row">
+           <div class="col-lg-4">
+             <img class=" img_thumbnail" src="/Users/sampada/Desktop/redthread/assets/logo/7.svg" alt="Generic placeholder image"  width="35" height="35">
+             <h2 class="video-title">Listings  </h2>
+            <p> class="video_excerpt"Listings of all the architectural firms and design  schools — established or upcoming — in the country. </p>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <img class=" img_thumbnail" src="/Users/sampada/Desktop/redthread/assets/logo/8.svg" alt="Generic placeholder image" width="35" height="35">
+            <h2 class="video-title">Materials I Services  </h2>
+            <p class="video_excerpt">Hosting a verified list of building materials/suppliers. Includes a database of MEP consultants for different scaled projects.</p>  
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <img class=" img_thumbnail" src="/Users/sampada/Desktop/redthread/assets/logo/9.svg" alt="Generic placeholder image" width="35" height="35">
+            <h2 class="video-title">Network</h2>
+            <p class="video_excerpt">Be a part of a cohesive community of architects, designers, top creative firms, mentors and contractors. </p>
+          </div><!-- /.col-lg-4 -->
+        </div><!-- /.row -->
+      </div>  <!--container -->
+    </div> <!--about_us-->
+    
+    <!-- </div> /.container -->
+
+
+    <!-- =================================REDTHREAD INITIATIVE==============================-->
+    <div class="redthread-facts">
+      
+         <div class=" tranparent_layer jumbotron">
+          <div class="container">
+           <div class=" text-center logo_center">
+              <img class="text-center" src="/Users/sampada/Desktop/redthread/assets/logo/LOGO.jpg" width="50" height="50">
+           </div>
+           <div class=" text-center">
+              <div class="design_firms">Redthread bridges the gap<br/> between creative talent and top architecture firms</div> <br/>
+              <div class="design_firms"><span class="four-hundred">400+</span> <span class="design_firms"> design schools</span><br/>
+                 <span class="four-hundred">10,000+  </span> <span class="design_firms"> design firms</span><br/>
+                 <span class="four-hundred">40,000+</span><span class="design_firms">architect’s graduate/year</span></div>
+            </div>
+          </div><!--conatiner-->
+        </div><!--</div>--><!--jumbotron-->
+      
+    </div> <!--</div>--><!--redthread-facts-->
+
+    <!-- =================================contact us==============================-->
+    <div class="contact_us">
+     <div class="jumbotron"> </div>
+      <div class="jumbotron"> </div>
+
+      <div class="jumbotron"> 
+       <div class="container">
+
+         <div class="row">
+         
+            <div class="col-lg-4  text-center sentence">
+              Quit wandering <br/>Start connecting
+            </div>
+            <div class="col-lg-4 text-center social_connect">
+              
+            </div>
+            <div class="col-lg-4 text-center social_connect">
+              Contact Us
+              <div> 
+                <a href="mailto:redthreadarchitects@gmail.com"><img class="img_align" src="/Users/sampada/Desktop/redthread/assets/logo/gmail.svg" alt="Generic placeholder image" width="100" height="100">  
+                <a href="https://www.facebook.com/ArchitectsEcosystem/photos/a.776686682465776.1073741825.776607129140398/776686689132442/?type=3&source=11"><img class="img_align" src="/Users/sampada/Desktop/redthread/assets/logo/facebook.svg" alt="Generic placeholder image" width="100" height="100">  </a> 
+              </div>
+            </div>
+          
+        </div>   
+       </div><!--conatiner-->
+      </div><!--jumbotron-->
+    </div>  
+
+    <footer class="footer">
+      <div class="container">
+      </div>
+    </footer>   
+  
+   
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>

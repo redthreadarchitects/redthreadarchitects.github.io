@@ -6,7 +6,8 @@ body{
 
 }
 .navbar-own {
-		border-bottom: 1px solid white;
+		border-bottom: 0.25px solid;
+		border-color: rgba(255,255,255,0.2);
 		height: 100px;
        
 }
@@ -25,7 +26,7 @@ ul.topnav li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 15px 30px 0px 50px;
     text-decoration: none;
     background-color: none;
 }
@@ -109,8 +110,8 @@ ul.topnav li.right {float: right;}
 .featured {
 
 	position:relative;
-	left:10px;
-	top:200px;
+	left:-20px;
+	top:300px;
 }
 
  .big_canvas {
@@ -129,6 +130,7 @@ ul.topnav li.right {float: right;}
 
 .interview-name {
 	font-size: 60px;
+	font-weight: 100;
 	font-family:"century gothic";
 	padding-top: 0px;
 	padding-left:-5px;
@@ -136,6 +138,11 @@ ul.topnav li.right {float: right;}
 	padding-bottom: 0px;
 	margin-bottom: 0px;
 	margin-left:-5px;
+}
+
+.name-light {
+	font-family:"century gothic";
+	font-weight: lighter;
 }
 
 .interview-designation {	

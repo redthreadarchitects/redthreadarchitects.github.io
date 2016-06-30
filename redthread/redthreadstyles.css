@@ -232,8 +232,8 @@ ul.topnav li.right {float: right;}
 	color:#999;
 }
 
-.img_about_us_1 {opacity:0.4;}
-.img_about_us_2 {opacity:0.8; }
+.img_about_us_1 {opacity:;}
+.img_about_us_2 {opacity:; }
 .img_about_us_3 {opacity:}
 
 .img_about_us_4 {opacity:}

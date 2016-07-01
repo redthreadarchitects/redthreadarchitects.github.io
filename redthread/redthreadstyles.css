@@ -110,7 +110,7 @@ ul.topnav li.right {float: right;}
 .featured {
 
 	position:relative;
-	left:-20px;
+	left:0px;
 	top:300px;
 }
 
@@ -163,12 +163,14 @@ ul.topnav li.right {float: right;}
 }
 
 .interview-btn {  
-  border-style: solid;
+  border-style: solid ;
+  border-radius: 5px;
   border-width: 1px;
-  border-color: #e12227;
-  background-color: #e12227;
+  border-color: rgba(225,34,39,0.5);
+  background-color: rgba(225,34,39,0.5) ;
   font-size: 15px;
   font-color: #ffffff;
+  
   font-weight: 500px;
   text-align: center;
   margin-top:30px;

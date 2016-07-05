@@ -47,7 +47,7 @@ h4 {
     display: block;
      font-size: 1.12em;
     margin-top: 0.6em;
-    margin-bottom: 0.6em;
+    margin-bottom: 0.3em;
     margin-left: 0;
     margin-right: 0;
     
@@ -559,14 +559,14 @@ div.dropdown:hover .toggle-button{
 
 .img_about_us_1 {margin-top: 20px;}
 .img_about_us_2 {margin-top: 20px; }
-.img_about_us_3 {margin-top: 20px}
+.img_about_us_3 {margin-top: 20px;}
 
-.img_about_us_4 {margin-top: 20px}
-.img_about_us_5 {margin-top: 20px}
-.img_about_us_6 {margin-top: 20px}
-.img_about_us_7 {margin-top: 20px}
-.img_about_us_8 {margin-top: 20px}
-.img_about_us_9 {margin-top: 20px}
+.img_about_us_4 {margin-top: 20px;}
+.img_about_us_5 {margin-top: 20px;}
+.img_about_us_6 {margin-top: 20px;}
+.img_about_us_7 {margin-top: 20px;}
+.img_about_us_8 {margin-top: 20px;}
+.img_about_us_9 {margin-top: 20px;}
 /* --=======================REDTHREAD initiative ==================--*/
 .tranparent_layer {
   background-color:rgba(1,0,0,.8);

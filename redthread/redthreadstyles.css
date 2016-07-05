@@ -5,12 +5,217 @@ body{
  	background-color: #f8f8f8;
     overflow-x: hidden;
     font-size:16px;
+   
 }
 
 h1,h2,h3,h4,h5,h6 {
 	font-family: "century gothic";
 	
 }
+
+h1 {
+	display: block;
+    font-size: 2em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    margin-left: 0;
+    margin-right: 0;
+    
+}
+
+h3 { 
+    display: block;
+    font-size: 1.17em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    
+}
+
+h4 { 
+    display: block;
+     font-size: 1.12em;
+    margin-top: 0.6em;
+    margin-bottom: 0.6em;
+    margin-left: 0;
+    margin-right: 0;
+    
+}
+
+h5 { 
+    display: block;
+    font-size: .83em;
+    margin-top: 1.67em;
+    margin-bottom: 1.67em;
+    margin-left: 0;
+    margin-right: 0;
+    
+}
+
+h6 { 
+    display: block;
+    font-size: .67em;
+    margin-top: 2.33em;
+    margin-bottom: 2.33em;
+    margin-left: 0;
+    margin-right: 0;
+    
+}
+
+
+
+
+/*====================MEDIA QUERIES===BEGINS=====================================*/
+
+/*=====================below 300px=========================*/
+@media screen and (max-width:300px) {
+	.logo { 
+		width:200px;
+		 height:20px; 
+		 margin:5% 5%; 
+	
+   }
+
+   .toggle-button {
+      float:right;
+   }
+
+
+   .playlist {
+   		width:100%;
+   		margin-top:10px;
+   }
+
+
+}
+
+/*=====================at 300px=========================*/
+@media screen and (min-width:301px) {
+	.logo { 
+		width:200px;
+		 height:20px; 
+		 margin:5% 5%; 
+	
+   }
+
+   .toggle-button {
+   		float:right;
+   		 margin-top: 20%;
+   }
+
+   .playlist {
+   		width:100%;
+   		
+   }
+}
+
+/*=====================at 400px=========================*/
+@media screen and (min-width:401px) {
+	.logo { 
+		width:250px;
+		 height:25px; 
+		 margin:5% 5%; 
+	
+   }
+
+   .toggle-button {
+   	   float:right;
+   
+   }
+
+
+   .playlist {
+   		width:100%;
+   		
+   }
+}
+
+
+/*=====================at 500px=========================*/
+@media screen and (min-width:500px) {
+	.logo { 
+		width:300px;
+		 height:30px; 
+		 margin:5% 5%; 
+	
+   }
+
+   .toggle-button {
+     float:right;
+   	   margin-top: 50%;
+   }
+
+
+   .playlist {
+   		width:100%;
+   		
+   }
+}
+
+/*=====================at 600px=========================*/
+@media screen and (min-width:600px) {
+	.logo { 
+		width:400px;
+		 height:40px; 
+		 margin:5% 5%; 
+	
+   }
+
+   .toggle-button {
+   	float:right;
+   	   margin-top: 90%;
+   }
+
+
+   .playlist {
+   		width:48%;
+   }
+}
+
+/*=====================at 800px=========================*/
+@media screen and (min-width:800px) {
+	.logo { 
+		width:400px;
+		 height:40px; 
+		 margin:1% 1%;
+	
+   }
+
+
+   .playlist {
+   		width:32%;
+   }
+}
+
+
+
+
+
+/*===========================MEDIA QUERIES ENDS=======================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .navbar-own {
 		border-bottom: 0.25px solid;
@@ -28,12 +233,6 @@ h1,h2,h3,h4,h5,h6 {
 	div.navbar-about-btn {
 		display:none;
 	}
-
-	.logo {
-		width:200px;
-		height:20px;
-	}
-
 	
 
 
@@ -43,10 +242,9 @@ h1,h2,h3,h4,h5,h6 {
 	border:none;
 	padding-bottom:10px;
 	background: none;
-	float: right;
+	
 	display:absolute;
-	left:15px;
-	top:20px;
+	
 	
 }
 
@@ -132,7 +330,6 @@ ul.topnav li.right {float: right;}
 .dropdown-content ul li a {
     color:#f8f8f8;
     font-family:"century gothic";
-    font-size: 16px;
     background-color:none;
     padding: 12px 16px;
     text-decoration: none;
@@ -143,10 +340,12 @@ ul.topnav li.right {float: right;}
 
 .dropdown-content li a.active {background-color: red;}
 
+
+
 .dropdown:hover 
     .dropdown-content {
     display:block;
-    position: relative;
+    position: absolute;
 }
 
 
@@ -188,9 +387,9 @@ div.dropdown:hover .toggle-button{
 
 .logo {
 	position:absolute;
-	margin:10px 10px;
-    
-	}
+	
+}
+
 
 .logo1 {
 	 margin-top: 18px;
@@ -214,7 +413,7 @@ div.dropdown:hover .toggle-button{
 .sub_heading {
    font-family: "century gothic";
    font-weight: 10;
-   font-size:40px;
+  
    margin-top: 20px; 
    padding: 30px;
    color:#333333;
@@ -223,18 +422,16 @@ div.dropdown:hover .toggle-button{
 
 /*----------------big_canvas begins-------------------- */
 .featured {
-    width:50%;
-	height:30%;
 	position:absolute;
-	left:10%;
-	top:50%;
+	left:5%;
+	bottom:5%;
 
-	border:2px solid red;
+	
 }
 
  .big_canvas {
 
-    background-image: url('assets/logo/canvas.png'); opacity: 0.7;
+    background-image: url('assets/logo/canvas.png');
 	background-size: cover;
     position: relative;
    
@@ -285,20 +482,13 @@ div.dropdown:hover .toggle-button{
 }
 
 .interview-btn {  
-  border-style: solid ;
-  border-radius: 5px;
-  border-width: 1px;
-  border-color: rgba(225,34,39,0.5);
-  background-color: rgba(225,34,39,0.5) ;
-  font-size: 15px;
-  font-color: #ffffff;
+ 
+  border-radius: 20px;
   
-  font-weight: 500px;
-  text-align: center;
-  margin-top:30px;
-  padding-top:13px; 
-  width:160px;
-  height:50px;
+  background-color: rgba(225,34,39,0.5) ;
+  
+  font-color: #ffffff;
+  padding:.7em;
 }
 
 
@@ -328,53 +518,28 @@ div.dropdown:hover .toggle-button{
 }
 
 .playlist {
+    display: inline-block;
+
+
+}
+
+.playlist .embed-responsive .embed-responsive-16by9 {
 
 	display: inline-block;
+	position: absolute;
+	left:0;
+	top:0;
 
 }
 
-@media screen and (max-width:600px)
-{
-  
-   .playlist {
-   	width: 97%;
-   	margin-left: auto;
-   	margin-right:auto;
-   	border:0px solid blue;
-   }
-}
-
-
-@media screen and (min-width:601px)
-{
-  
-   .playlist {
-   	width:45%;
-   	margin-left:2%;
-   	margin-right:2%; 
-   	display: inline-block;
-   	border:2px solid red;
-   }
-}
-
-@media screen and (min-width:1200px)
-{
-  
-   .playlist {
-   	width:30%;
-   	margin-left:1%;
-   	margin-right:1%; 
-   	display: inline-block;
-   	border:0px solid red;
-   }
-}
 
 
 .video-title {
 	font-family: "century gothic";
-	font-size: 15px;
+	
 	position:relative;
 	color:#333333;
+	padding-bottom: 15px;
 }
 
 
@@ -382,7 +547,6 @@ div.dropdown:hover .toggle-button{
 	color: #999;
 	font-family: "century gothic";
 	line-height: 1.75;
-	font-size: 13px;
 	
 }
 
@@ -393,16 +557,16 @@ div.dropdown:hover .toggle-button{
 	color:#999;
 }
 
-.img_about_us_1 {opacity:;}
-.img_about_us_2 {opacity:; }
-.img_about_us_3 {opacity:}
+.img_about_us_1 {margin-top: 20px;}
+.img_about_us_2 {margin-top: 20px; }
+.img_about_us_3 {margin-top: 20px}
 
-.img_about_us_4 {opacity:}
-.img_about_us_5 {opacity:}
-.img_about_us_6 {opacity:}
-.img_about_us_7 {opacity:}
-.img_about_us_8 {opacity:}
-.img_about_us_9 {opacity:}
+.img_about_us_4 {margin-top: 20px}
+.img_about_us_5 {margin-top: 20px}
+.img_about_us_6 {margin-top: 20px}
+.img_about_us_7 {margin-top: 20px}
+.img_about_us_8 {margin-top: 20px}
+.img_about_us_9 {margin-top: 20px}
 /* --=======================REDTHREAD initiative ==================--*/
 .tranparent_layer {
   background-color:rgba(1,0,0,.8);
@@ -418,7 +582,7 @@ div.dropdown:hover .toggle-button{
    }
 
 .redthread-facts {
-	width:100%;
+	
 	
 	background-image:url('assets/logo/redthread-initiatve.png');
 	background-repeat:  no-repeat;
@@ -488,7 +652,7 @@ div.dropdown:hover .toggle-button{
 }
 .sentence {
 		color:#999;
-	border:2px solid red;
+	
 	
 	line-height: 1.2em;
 
@@ -503,7 +667,7 @@ div.dropdown:hover .toggle-button{
 
 	
 	position:relative;
-    border:2px solid red;
+    
 	line-height: .2em;
 	
 	font-family: "century gothic";

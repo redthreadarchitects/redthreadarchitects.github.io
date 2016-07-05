@@ -4,13 +4,53 @@ body{
 	font-family: "century gothic";
  	background-color: #f8f8f8;
     overflow-x: hidden;
+    font-size:16px;
 }
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: "century gothic";
+	
+}
+
 .navbar-own {
 		border-bottom: 0.25px solid;
 		border-color: rgba(255,255,255,0.2);
 		height: 100px;
        
 }
+
+@media screen and (max-width:600px)
+{
+	.navbar-own {
+		border:none;
+	}
+
+	div.navbar-about-btn {
+		display:none;
+	}
+
+	.logo {
+		width:200px;
+		height:20px;
+	}
+
+	
+
+
+}
+.toggle-button {
+	
+	border:none;
+	padding-bottom:10px;
+	background: none;
+	float: right;
+	display:absolute;
+	left:15px;
+	top:20px;
+	
+}
+
+ 
 
 ul.topnav {
     list-style-type: none;
@@ -31,18 +71,93 @@ ul.topnav li a {
     background-color: none;
 }
 
+
+
+
 ul.topnav li a:hover:not(.active) {background-color: none;}
 
 ul.topnav li a.active {background-color: #4CAF50;}
 
 ul.topnav li.right {float: right;}
 
-@media screen and (max-width: 600px){
-    ul.topnav li.right,
-    ul.topnav li {float: none;}
+
+
+@media screen and (max-width: 800px){
+  
+    .navbar-own {
+    	display:none;
+    }
+
+  
+
+}
+
+
+
+@media screen and (min-width: 801px){
+    
+    .navbar-small{
+    	display:none;
+    }
+
+   
+
 }
 
 /*----------- navbar begins -----------------*/
+
+.dropdown {
+    position: relative;
+    float: right;
+    top:10px;
+    margin-right: 15px;
+    display: block;
+     text-decoration: none;
+    
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+     text-decoration: none;
+    min-width: 100px;
+    
+    
+}
+.dropdown-content  li a {
+     text-decoration: none;
+}
+
+
+.dropdown-content ul li a {
+    color:#f8f8f8;
+    font-family:"century gothic";
+    font-size: 16px;
+    background-color:none;
+    padding: 12px 16px;
+    text-decoration: none;
+    display:inline-block;
+   
+
+}
+
+.dropdown-content li a.active {background-color: red;}
+
+.dropdown:hover 
+    .dropdown-content {
+    display:block;
+    position: relative;
+}
+
+
+div.dropdown:hover .toggle-button{
+    background-color: #3e8e41;
+
+}
+
+
+/*------------------*/
+
   
  a , a:hover{
 	text-decoration: none;
@@ -72,11 +187,10 @@ ul.topnav li.right {float: right;}
 
 
 .logo {
-	 margin-top: 18px;
-	 padding-bottom: 5px;
-	 width:300px;
-	 height:40px;
-}
+	position:absolute;
+	margin:10px 10px;
+    
+	}
 
 .logo1 {
 	 margin-top: 18px;
@@ -89,7 +203,8 @@ ul.topnav li.right {float: right;}
 
 /*--------------------col-lg-4---------------*/
 .col-lg-4 {
-	margin-bottom:40px;
+	
+	
 }
 
 /*--------------------col-lg-4---------------*/
@@ -106,20 +221,32 @@ ul.topnav li.right {float: right;}
 }
 
 
-/*----------------big_anvas begins-------------------- */
+/*----------------big_canvas begins-------------------- */
 .featured {
+    width:50%;
+	height:30%;
+	position:absolute;
+	left:10%;
+	top:50%;
 
-	position:relative;
-	left:0px;
-	top:300px;
+	border:2px solid red;
 }
 
  .big_canvas {
 
-	background-image:url('assets/logo/canvas.png') ;
-
+    background-image: url('assets/logo/canvas.png'); opacity: 0.7;
+	background-size: cover;
+    position: relative;
+   
 	width:100% ;
 	height: 680px;
+}
+
+.cover-image {
+	position:absolute;
+	
+    width:100% ;
+	height: 100%;
 }
 
 .latest-interview-label {
@@ -130,15 +257,10 @@ ul.topnav li.right {float: right;}
 }
 
 .interview-name {
-	font-size: 60px;
+	
 	font-weight: 100;
 	font-family:"century gothic";
-	padding-top: 0px;
-	padding-left:-5px;
-	margin-top: 0px;
-	padding-bottom: 0px;
-	margin-bottom: 0px;
-	margin-left:-5px;
+	
 }
 
 .name-light {
@@ -205,6 +327,47 @@ ul.topnav li.right {float: right;}
     width:100%;
 }
 
+.playlist {
+
+	display: inline-block;
+
+}
+
+@media screen and (max-width:600px)
+{
+  
+   .playlist {
+   	width: 97%;
+   	margin-left: auto;
+   	margin-right:auto;
+   	border:0px solid blue;
+   }
+}
+
+
+@media screen and (min-width:601px)
+{
+  
+   .playlist {
+   	width:45%;
+   	margin-left:2%;
+   	margin-right:2%; 
+   	display: inline-block;
+   	border:2px solid red;
+   }
+}
+
+@media screen and (min-width:1200px)
+{
+  
+   .playlist {
+   	width:30%;
+   	margin-left:1%;
+   	margin-right:1%; 
+   	display: inline-block;
+   	border:0px solid red;
+   }
+}
 
 
 .video-title {
@@ -223,10 +386,6 @@ ul.topnav li.right {float: right;}
 	
 }
 
-.playlist-row1 {
-	margin-top: -50px;
-	padding-top: -50px;
-}
 
 /* --=======================about us  ==================--*/
 .about_us {
@@ -272,21 +431,50 @@ ul.topnav li.right {float: right;}
 	position: relative;
     font-family: "century gothic";
    
-    font-size: 60px;
-    line-height: 120px;
+    font-size: 2.8rem;
+    line-height: 1.2em;
 }
 
 
 .design_firms {
 	display: inline-block;
 	font-family: "century gothic";
-	font-size: 30px;
-	line-height: 38px;
+	font-size: 1.4rem;
+	line-height: 1.2em;
 	margin-top:40px;
 	
 }
 
 
+@media and screen (max-width:400px) {
+
+
+	
+
+}
+
+@media screen (min-width:401px) and (max-width:600px) {
+
+
+	.design_firms {
+		display: inline-block;
+		font-family: "century gothic";
+		font-size: 1px;
+		line-height: 1.2em;
+		margin-top:1.2em;
+	}
+
+
+
+	.four-hundred {
+		display: inline-block;
+		position: relative;
+   	    font-family: "century gothic";
+  	    font-size: 1em;
+        line-height:1.2em;
+    }
+
+}
 
 /* ---==============contact us ====================--*/
 	
@@ -295,16 +483,16 @@ ul.topnav li.right {float: right;}
 	color: #333;
 	width: 100%;
 	height: 400px;
-	line-height: 38px;
-	font-size:36px;
+	line-height: 3em;
+	
 }
 .sentence {
-	position:relative;
-	color:#999;
-	line-height: 60px;
-	font-family: "century gothic";
-	font-size: 42px;
-	margin-top:-15px;
+		color:#999;
+	border:2px solid red;
+	
+	line-height: 1.2em;
+
+	margin-top:3.2em;
 
 
 
@@ -315,18 +503,19 @@ ul.topnav li.right {float: right;}
 
 	
 	position:relative;
-	line-height: 80px;
+    border:2px solid red;
+	line-height: .2em;
+	
 	font-family: "century gothic";
-	font-size: 36px;
-	margin-top: -10px;
+	
+	margin-top: 0px;
 
 }
 
 .contact_word {
 	font-family: "century gothic";
    font-weight: 10;
-   font-size:40px;
-	margin-top: -50px;
+   margin-top: 0px;
 	color:#333333;
 }
 
@@ -338,14 +527,21 @@ ul.topnav li.right {float: right;}
 }
 
 
+/*@media screem and (min-width:600px ) {
+
+	.social_connect , .sentence {
+		width:50%;
+		margin-left:100px; 
+	}
+}
+
 /* ======footer ==============*/
 
 .footer{
 	background-color:#323232;
 	height: 50px;
-	margin-bottom: 0;
-	padding-left: 47px;
-	padding-top: 18px;	
+	padding:2px;
+	
 }
 
 

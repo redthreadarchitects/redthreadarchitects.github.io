@@ -82,42 +82,42 @@ $(document).ready(function(){
   </head>
 
   <body>
-    
-        
-    
       
     <div class="big_canvas">
        <nav class="navbar-own">
           <ul class="topnav">
             <li><a  href="#"><img class="logo" src="assets/logo/logo.svg"> </a></li>
-            <li class="right"><a class="about-link" href="#about"> <div class="navbar-about-btn">About</div></a></li>
+            <li class="right"><a class="about-link" href="#about"> <div class="navbar-about-btn"><h3>ABOUT</h3></div></a></li>
       
           </ul>
-       </nav>
+      </nav>
     
-       <nav class="navbar-small">
-            <div>
-               <a  href="#"><img class="logo" src="assets/logo/logo.svg"> </a>
-            </div>
-            <div class="dropdown">
-                  <button class="toggle-button"><img src="assets/logo/dropdown-icon.png" width=20px height=20px></button>
-                  <div class="dropdown-content">
-                   <ul>
-                       <li> <a href="#about">About</a></li>
-                    </ul>
-                  </div>
-            </div>       
+      <nav class="navbar-small">
+
+         <ul>
+           <li><a  href="#"><img class="logo" src="assets/logo/logo.svg"> </a></li>
+           <li>
+              <div class="dropdown">
+                <div><a href=#><img src="assets/logo/dropdown-icon.png" width=20px height=20px></a></div>
+                <div class="dropdown-content">
+                  
+                  <a href="#about"> ABOUT</a>
+                  
+                </div>
+              </div>  
+            </li>
+         </ul>
        </nav>
     
 
-      <div class="container">
+      <div class="container" >
 
         <div class=" featured"> 
-          <h3 ">latest interview</h3>
-          <h1>Dominic Dube</h1>
-          <h4>Principal architect of DDIR</h4>
+          <span  class="f2">latest interview</span>          
+          <span class="f1">Dominic Dube</span>
+          <span class="f2">Principal architect of DDIR</span>
 
-          <a  class="interview-link" href="#main_interview"><button class="interview-btn ">WATCH INTERVIEW</button></a>
+          <a  class="interview-link" href="#main_interview"><div class="interview-btn "><h3>WATCH INTERVIEW</h3></div></a>
         </div>
         
       </div> <!---container -->
@@ -138,15 +138,15 @@ $(document).ready(function(){
     <!-- video playlist -->
      
     <div class="playlist_container">  
-      <div class="container"> 
-        <h2 class="text-center"> Interviews </h2>
+      <div class="container " > 
+        <h1 class="text-center"> Interviews </h1>
        
         <!--row 1 -->
           <div class="playlist ">
              <div class="embed-responsive embed-responsive-16by9">
                   <iframe src="https://www.youtube.com/embed/8f_MLtcoLRs" frameborder="0" allowfullscreen></iframe>
               </div>
-                 <h4 class="text-left video-title">DDIR   I   Full - Interview  I </h4>
+                 <h2 class="text-left video-title">DDIR   I   Full - Interview   </h2>
                  <p class="text-left video-excerpt"></p>
           </div>
          
@@ -155,14 +155,14 @@ $(document).ready(function(){
              <div class="embed-responsive embed-responsive-16by9 embed-responsive embed-responsive-16by9 ">
                   <iframe   src="https://www.youtube.com/embed/1V5PqamX21Y" frameborder="0" allowfullscreen></iframe>
               </div>
-                 <h4 class="text-left video-title">DDIR I Interview Trailer  </h4>
+                 <h2 class="text-left video-title">DDIR I Interview - Trailer  </h2>
                   <p class="text-left video-excerpt"></p>
           </div>
 
            <div class="playlist ">
              <div class="embed-responsive embed-responsive-16by9">
                  <iframe  src="https://www.youtube.com/embed/kN_hAx623r8" frameborder="0" allowfullscreen></iframe>  </div>
-                 <h4 class="text-left video-title">Collective Project I Full Interview </h4>
+                 <h2 class="text-left video-title">Collective Project I Full - Interview </h2>
             <p class="text-left video-excerpt"></p>
           </div>
 
@@ -170,14 +170,14 @@ $(document).ready(function(){
              <div class="embed-responsive embed-responsive-16by9">
                   <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/u0A5hf5nqU4" frameborder="0" allowfullscreen></iframe>
               </div>
-                 <h4 class="text-left video-title">Collective Project I Interview-Trailer  </h4>
+                 <h2 class="text-left video-title">Collective Project I Interview - Trailer  </h2>
             <p class="text-left video-excerpt"></p>
           </div>
           <div class="playlist ">
              <div class="embed-responsive embed-responsive-16by9">
                   <iframe class="embed-responsive-item" src=https://www.youtube.com/embed/m0clkryX0NI" frameborder="0" allowfullscreen></iframe>
               </div>
-                 <h4 class="text-left video-title">Étendre I Full Interview  </h4>
+                 <h2 class="text-left video-title">Étendre I Full - Interview  </h2>
                  <p class="text-left video-excerpt"></p>
               </div>
 
@@ -185,7 +185,7 @@ $(document).ready(function(){
              <div class="embed-responsive embed-responsive-16by9">
                   <iframe  src="https://www.youtube.com/embed/M9Z4LbZLW2k" frameborder="0" allowfullscreen></iframe>
               </div>
-                 <h4 class="text-left video-title">Étendre I Interview Trailer  </h4>
+                 <h2 class="text-left video-title">Étendre I Interview - Trailer  </h2>
                   <p class="text-left video-excerpt"></p>
               </div>
 
@@ -200,37 +200,37 @@ $(document).ready(function(){
     <!-- ===================ABOUT US============================ -->
     <div class="about_us" id="about">
      <div class=" container">
-         <h2 class="text-center">our architect’s ecosystem includes… </h2>
+         <h1 class="text-center">our architect’s ecosystem includes… </h1>
          <!--<div class="row">-->
            <div class="col-sm-12  col-lg-4">
              <img class=" img_thumbnail img_about_us_1 " src="assets/logo/1.svg" alt="Generic placeholder image" width="35" height="35">
-             <h4 class="video-title">Right Job </h4>
+             <h2>Right Job </h2>
              <p>Build your profile, sync and publish.We take the criteria you put into your profile and search our network for perfect opportunities, that match your needs based on your style,  location and more. </p>
            </div><!-- /.col-lg-4 -->
            <div class="col-sm-12  col-lg-4">
              <img class=" img_thumbnail img_about_us_2" src="assets/logo/2.svg" alt="Generic   placeholder image" width="35" height="35">
-             <h4 class="video-title">Right Candidate</h4>
+             <h2>Right Candidate</h2>
              <p>Custom recommendations for each job you post. From interns, junior architects to practised professionals, we'll recommend the right creative talent  based on your style, location and more.</p>  
            </div><!-- /.col-lg-4 -->
            <div class=" col-sm-12  col-lg-4">
              <img class="img_thumbnail img_about_us_3" src="assets/logo/3.svg" alt="Generic  placeholder image" width="35" height="35">
-             <h4 class="video-title">Portfolio I Resume </h4>
+             <h2>Portfolio I Resume </h2>
              <p>Meticulously curated portfolios and a comprehensive resource of project examples. Bookmark or rate your favorite portfolios to convey your interest in a firm or a candidate. </p>
            </div><!-- /.col-lg-4 -->
         
            <div class=" col-sm-12   col-lg-4">
              <img class=" img_thumbnail img_about_us_4 " src="assets/logo/4.svg" alt="Generic placeholder image"  width="35" height="35">
-            <h4 class="video-title">Great Projects  </h4>
+            <h2>Great Projects  </h2>
             <p>Most  ideal platform for freelancers. By matching your scope of work  with needs of clients, we will align suitable projects for you to associate with.</p>  
            </div><!-- /.col-lg-4 -->
            <div class="col-sm-12  col-lg-4">
              <img class=" img_thumbnail img_about_us_5 " src="assets/logo/5.svg" alt="Generic placeholder image" width="35" height="35">
-             <h4 class="video-title">Inspiration </h4>
+             <h2>Inspiration </h2>
              <p>Watch. Reflect. Apply.Our exclusive interviews with acclaimed architects will give you the much-needed inspiration to push your boundaries.</p>    
            </div><!-- /.col-lg-4 -->
            <div class="col-sm-12  col-lg-4">
              <img class=" img_thumbnail img_about_us_6 " src="assets/logo/6.svg" alt="Generic placeholder image" width="35" height="35">
-             <h4 class="video-title">Happenings</h4>
+             <h2>Happenings</h2>
              <p>A one-stop destination to keep track of various competitions, workshops and events in the city. With us, you always remain in the loop.</p>
            </div><!-- /.col-lg-4 -->
             <!--</div><!-- /.row -->
@@ -239,37 +239,37 @@ $(document).ready(function(){
           <!--<div class="row">-->
            <div class="col-sm-12  col-lg-4">
              <img class=" img_thumbnail img_about_us_7 " src="assets/logo/7.svg" alt="Generic placeholder image"  width="35" height="35">
-             <h4 class="video-title">Listings  </h4>
+             <h2>Listings  </h2>
             <p>Listings of all the architectural firms and design  schools — established or upcoming — in the country. </p>
           </div><!-- /.col-lg-4 -->
           <div class="col-sm-12   col-lg-4">
             <img class=" img_thumbnail img_about_us_8 " src="assets/logo/8.svg" alt="Generic placeholder image" width="35" height="35">
-            <h4 class="video-title">Materials I Services  </h4>
+            <h2>Materials I Services  </h2>
             <p>Hosting a verified list of building materials/suppliers. Includes a database of MEP consultants for different scaled projects.</p>  
           </div><!-- /.col-lg-4 -->
           <div class="col-sm-12  col-lg-4">
             <img class=" img_thumbnail img_about_us_9 " src="assets/logo/9.svg" alt="Generic placeholder image" width="35" height="35">
-            <h4 class="video-title">Network</h4>
+            <h2>Network</h2>
             <p>Be a part of a cohesive community of architects, designers, top creative firms, mentors and contractors. </p>
           </div><!-- /.col-lg-4 -->
         <!--</div><!-- /.row -->
       </div>  <!--container -->
+      <br/>
     </div> <!--about_us-->
     
     <!-- </div> /.container -->
 
 
-    <!-- =================================REDTHREAD INITIATIVE==============================--><div class="container">
+    <!-- =================================REDTHREAD INITIATIVE==============================-->
+    <div class="container">
         <div class="redthread-facts">
           <div class=" tranparent_layer jumbotron">  
-           <div class=" text-center logo_center">
-              <img class="text-center" src="assets/logo/LOGO.jpg" width="50" height="50">
-           </div>
+           <h1 class=" text-center "> <img class="text-center" src="assets/logo/LOGO.jpg" width="50" height="50"></h1>
            <div class=" text-center">
-              <h4>Redthread bridges the gap<br/> between creative talent and top architecture firms</h4> <br/>
-                 <h1>400+  </h1> <h4> design schools</h4><br/>
-                 <h1>10,000+  </h1> <h4> architecture firms</h4><br/>
-                 <h1>40,000+  </h1> <h4> architects graduate/year</h4>
+              <h2>Redthread bridges the gap<br/> between creative talent and top architecture firms</h2> <br/>
+                 <h1>400+  </h1> <h2> design schools</h2><br/>
+                 <h1>10,000+  </h1> <h2> architecture firms</h2><br/>
+                 <h1>40,000+  </h1> <h2> architects graduate/year</h2>
             </div>
           </div><!--</div>--><!--jumbotron-->
         </div><!--</div>--><!--redthread-facts-->
@@ -285,11 +285,11 @@ $(document).ready(function(){
          <div class="row">
          
             <div class="col-md-6 col-lg-6 col-sm-12 text-center sentence">
-              <h2>Quit wandering. <br/>Start connecting.</h2>
+              <h1>Quit wandering. <br/>Start connecting.</h1>
             </div>
             
             <div class="col-md-6 col-lg-6 col-sm-12 text-center social_connect">
-              <div class="contact_word"><h2>Contact Us</h2></div>
+              <div class="contact_word"><h1>Contact Us</h1></div>
               <div> 
                 <a href="mailto:redthreadarchitects@gmail.com"><img class="img_align" src="assets/logo/gmail.svg" alt="Generic placeholder image" width="60" height="60">  
                 <a href="https://www.facebook.com/ArchitectsEcosystem/photos/a.776686682465776.1073741825.776607129140398/776686689132442/?type=3&source=11"><img class="img_align" src="assets/logo/facebook.svg" alt="Generic placeholder image" width="60" height="60">  </a> 
@@ -301,9 +301,9 @@ $(document).ready(function(){
       </div><!--jumbotron-->
     </div>  
 
-    <footer class="footer col-lg-12 col-md-12 col-sm-12">
+    <footer class="footer col-lg-12 col-md-12 col-sm-12 ">
       
-          <h4 class="text-center">&copy;  redthreadarchitects 2016</h4>
+          <h2 class="text-center">&copy;  redthreadarchitects 2016</h2>
       
     </footer>   
   

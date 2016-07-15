@@ -8,6 +8,10 @@ body{
    
 }
 
+p, span {
+	font-family: "century gothic";
+}
+
 h1,h2,h3,h4,h5,h6 {
 	font-family: "century gothic";
 	color:#333333;
@@ -16,8 +20,8 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 h1 {
-	margin-top: 1em;
-	margin-bottom: 1em;
+	margin-top: 30px;
+	margin-bottom: 30px;
 }
 
 
@@ -31,6 +35,10 @@ h3 {
 	margin:1em;
 }
 
+.container {
+	padding-bottom:30px; 
+	border:2px solid red;
+}
 
 
 /*====================MEDIA QUERIES===BEGINS=====================================*/
@@ -54,8 +62,8 @@ h3 {
 
 
    	.featured {left:10%; top:50%;}
-    .featured .f1 {display:block;  font-size:24px ; line-height: 1.2em; margin-left: -3px; color: #ffffff; }
-    .featured .f2 {display:block; font-size:14px ;  color: #ffffff;}
+    .featured .f1 {display:block;  font-size:24px ; line-height: 30px; margin-left: -3px; color: #ffffff; font-weight:600;  }
+    .featured .f2 {display:block; font-size:14px ;  color: #ffffff; }
     .featured h3 {font-size:12px ;}
     .featured a div {margin-top: 1.2em;}
 
@@ -357,26 +365,23 @@ ul.topnav li.right {float: right;}
 
 /*----------- navbar begins -----------------*/
 
-  .navbar-small {  height:80px; width:100%; background-color:none;  }
+  .navbar-small {  height:80px; width:100%; background-color:none; border-bottom: 1px solid white;  }
  
   .navbar-small ul li { list-style:none; display:inline-block;}
   .navbar-small ul li:first-child { float:left; margin-left:-20px; margin-top:30px;}
-  .navbar-small ul li:last-child {  float:right; margin-right:20px; margin-top:30px;}
+  .navbar-small ul li:last-child {  float:right; margin-right:50px; margin-top:30px;}
   .navbar-small ul li img {display: inline-block;}
 
 
    .dropdown-content { display:block; position:absolute; visibility:hidden;  }
    .dropdown {display:inline-block;}
-   .dropdown:hover .dropdown-content {padding:1em;  position: absolute;right:10px; background-color:rgba(255,255,255,0.5); visibility:visible; }
+   .dropdown:hover .dropdown-content {padding:1em;  position: absolute; right:50px; background-color:rgba(255,255,255,0.5); visibility:visible; }
  
 
 /*------------------*/
 
   
- a , a:hover{
-	text-decoration: none;
-	text-decoration: none;
-}
+ 
 .navbar-about-btn h3 {
 	display:inline-block;
 
@@ -393,8 +398,8 @@ ul.topnav li.right {float: right;}
 
 
 
-.about-link, .about-link:hover {
-	color: #ffffff; 
+ a, a:hover {
+	
 	text-decoration: none;
 }
 
@@ -406,8 +411,8 @@ ul.topnav li.right {float: right;}
 
 
 .logo1 {
-	 margin-top: 18px;
-	 padding-bottom: 5px;
+	 
+	 
 	 width:70px;
 	 height:40px;
 }
@@ -657,7 +662,7 @@ ul.topnav li.right {float: right;}
 }
 
 .jumbotron {
-   
+   border:3px solid green;
    width: 100%;
    background-color: rgba(0,0,0,0);
    margin-bottom: 0px;

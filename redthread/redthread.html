@@ -87,8 +87,9 @@ $(document).ready(function(){
        <nav class="navbar-own">
           <ul class="topnav">
             <li><a  href="#"><img class="logo" src="assets/logo/logo.svg"> </a></li>
+            <li class="right"><a class="about-link" href="#contact"> <div class="navbar-about-btn"><h3>CONTACT</h3></div></a></li>
             <li class="right"><a class="about-link" href="#about"> <div class="navbar-about-btn"><h3>ABOUT</h3></div></a></li>
-      
+            
           </ul>
       </nav>
     
@@ -98,11 +99,12 @@ $(document).ready(function(){
            <li><a  href="#"><img class="logo" src="assets/logo/logo.svg"> </a></li>
            <li>
               <div class="dropdown">
-                <div><a href=#><img src="assets/logo/dropdown-icon.png" width=20px height=20px></a></div>
+                <div><a href=#><img src="assets/logo/dropdown-icon.png" width=30px height=20px></a></div>
                 <div class="dropdown-content">
-                  
-                  <a href="#about" style="text-decoration:none; color:#ffffff"> ABOUT</a>
-                  
+                  <ul>
+                      <li><a href="#about" style="text-decoration:none; color:#ffffff"> ABOUT</a></li>
+                      <li><a href="#contact" style="text-decoration:none; color:#ffffff"> CONTACT</a></li>
+                  </ul>
                 </div>
               </div>  
             </li>
@@ -116,7 +118,6 @@ $(document).ready(function(){
           <span  class="f2">In conversation with</span>          
           <span class="f1">Dominic Dube</span>
           <span class="f2">Principal architect of DDIR</span>
-
           <a  class="interview-link" href="#main_interview"><div class="interview-btn "><h3>WATCH INTERVIEW</h3></div></a>
         </div>
         
@@ -142,7 +143,8 @@ $(document).ready(function(){
         <h1 class="text-center"> Interviews </h1>
        
         <!--row 1 -->
-          <div class="playlist ">
+          <div class="col-lg-4   col-xs-12 col-sm-6 col-md-4  ">
+            <br />
              <div class="embed-responsive embed-responsive-16by9">
                   <iframe src="https://www.youtube.com/embed/8f_MLtcoLRs" frameborder="0" allowfullscreen></iframe>
               </div>
@@ -151,7 +153,8 @@ $(document).ready(function(){
           </div>
          
 
-          <div class="playlist ">
+          <div class="col-lg-4   col-xs-12 col-sm-6 col-md-4  ">
+            <br />
              <div class="embed-responsive embed-responsive-16by9 embed-responsive embed-responsive-16by9 ">
                   <iframe   src="https://www.youtube.com/embed/1V5PqamX21Y" frameborder="0" allowfullscreen></iframe>
               </div>
@@ -159,21 +162,24 @@ $(document).ready(function(){
                   <p class="text-left video-excerpt"></p>
           </div>
 
-           <div class="playlist ">
+           <div class="col-lg-4   col-xs-12 col-sm-6 col-md-4  ">
+             <br />
              <div class="embed-responsive embed-responsive-16by9">
                  <iframe  src="https://www.youtube.com/embed/kN_hAx623r8" frameborder="0" allowfullscreen></iframe>  </div>
                  <h2 class="text-left video-title">In conversation with Collective Project I Full - Interview </h2>
             <p class="text-left video-excerpt"></p>
           </div>
 
-           <div class="playlist ">
+           <div class="col-lg-4   col-xs-12 col-sm-6 col-md-4  ">
+             <br />
              <div class="embed-responsive embed-responsive-16by9">
                   <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/u0A5hf5nqU4" frameborder="0" allowfullscreen></iframe>
               </div>
                  <h2 class="text-left video-title">In conversation with Collective Project I Interview - Trailer  </h2>
             <p class="text-left video-excerpt"></p>
           </div>
-          <div class="playlist ">
+          <div class="col-lg-4   col-xs-12 col-sm-6 col-md-4  ">
+            <br />
              <div class="embed-responsive embed-responsive-16by9">
                   <iframe class="embed-responsive-item" src=https://www.youtube.com/embed/m0clkryX0NI" frameborder="0" allowfullscreen></iframe>
               </div>
@@ -181,7 +187,8 @@ $(document).ready(function(){
                  <p class="text-left video-excerpt"></p>
               </div>
 
-           <div class="playlist ">
+           <div class="col-lg-4   col-xs-12 col-sm-6 col-md-4  ">
+             <br />
              <div class="embed-responsive embed-responsive-16by9">
                   <iframe  src="https://www.youtube.com/embed/M9Z4LbZLW2k" frameborder="0" allowfullscreen></iframe>
               </div>
@@ -201,9 +208,9 @@ $(document).ready(function(){
     <div class="about_us" id="about">
      <div class=" container">
          <h1 class="text-center">our architect’s ecosystem includes… </h1>
-         <!--<div class="row">-->
+         <!--<div class="row" >-->
            <div class="col-sm-12  col-lg-4" >
-             <img class=" img_thumbnail img_about_us_1 " style=" margin-top:0px;" src="assets/logo/1.svg" alt="Generic placeholder image" width="35" height="35">
+             <img class=" img_thumbnail img_about_us_1 "  src="assets/logo/1.svg" alt="Generic placeholder image" width="35" height="35">
              <h2>Right Job </h2>
              <p>Build your profile, sync and publish.We take the criteria you put into your profile and search our network for perfect opportunities, that match your needs based on your style,  location and more. </p>
            </div><!-- /.col-lg-4 -->
@@ -252,7 +259,7 @@ $(document).ready(function(){
             <h2>Network</h2>
             <p>Be a part of a cohesive community of architects, designers, top creative firms, mentors and contractors. </p>
           </div><!-- /.col-lg-4 -->
-        <!--</div><!-- /.row -->
+       <!-- </div><!-- /.row -->
       </div>  <!--container -->
    
     </div> <!--about_us-->
@@ -277,7 +284,7 @@ $(document).ready(function(){
     </div> <!--conatiner-->
 
     <!-- =================================contact us==============================-->
-    <div class="contact_us">
+    <div class="contact_us" id="contact">
      
       <div class="jumbotron"> 
        <div class="container">

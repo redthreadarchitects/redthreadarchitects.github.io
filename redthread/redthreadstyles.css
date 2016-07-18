@@ -60,6 +60,10 @@ h3 {
 	font-size: 12px;
    }
 
+   .big_canvas {
+   	background-position: center center;
+
+   }
 
    	.featured {left:10%; top:50%;}
     .featured .f1 {display:block; font-weight: bold;  font-size:24px ; line-height: 30px; margin-left: -3px; color: #ffffff; font-weight:600;  }
@@ -73,17 +77,17 @@ h3 {
 		width:200px;
 		 height:20px; 
 		 top:30px;
-		 left:-10px;
-		
-	
+		 left:-10px;		
    }
 
 
+	.design_firms {
+		font-size:14px ; 
+		color: #ffffff;
+	}
    
 
-
-
-
+   
 }
 
 /*=====================at 300px=========================*/
@@ -104,6 +108,10 @@ h3 {
 	font-size: 12px;
    }
 
+   .big_canvas {
+   	background-position: center center;
+
+   }
 
    	.featured {left:10%; top:50%;}
     .featured .f1 {display:block; font-weight: bold;  font-size:24px ; line-height: 1.2em; margin-left: -3px; color: #ffffff; }
@@ -115,11 +123,17 @@ h3 {
 	.logo { 
 		width:200px;
 		 height:20px; 
-		
-	
    }
 
-  
+    
+	.design_firms {
+		font-size:14px ; 
+		color: #ffffff;
+	}
+
+
+
+    
 
    
 }
@@ -154,11 +168,13 @@ h3 {
 	.logo { 
 		width:200px;
 		 height:20px; 
-		
-	
    }
 
-  
+    
+	.design_firms {
+		font-size:14px ; 
+		color: #ffffff;
+	}
 
   
 }
@@ -210,8 +226,16 @@ h3 {
 		width:200px;
 		height:20px; 
    }
+   
 
+
+	.design_firms {
+		font-size:16px ; 
+		color: #ffffff;
+	}
   
+
+
 }
 
 /*=====================at 800px=========================*/
@@ -244,11 +268,19 @@ h3 {
 	.logo { 
 		width:400px;
 		 height:40px; 
-		 margin:1% 0%;
+		 margin:1.6% 0%;
 	
    }
+   
 
 
+	.design_firms {
+		font-size:18px ; 
+		color: #ffffff;
+	}
+
+
+   
   
 }
 
@@ -412,17 +444,12 @@ ul.topnav li.right {float: right;  margin-left: -50px;}
 /*--------------------col-lg-4---------------*/
 
 
-
-.sub_heading {
-   
-}
-
-
 /*----------------big_canvas begins-------------------- */
 .featured {
-	position:absolute;
-	left:8%;
-	bottom:15%;
+	position:relative;
+	margin-top:60%;
+	
+	
 
 	
 }
@@ -430,19 +457,15 @@ ul.topnav li.right {float: right;  margin-left: -50px;}
  .big_canvas {
 
     background-image: url('assets/logo/canvas.png');
+    
 	background-size: cover;
     position: relative;
    
 	width:100% ;
-	height: 680px;
+	
 }
 
-.cover-image {
-	position:absolute;
-	
-    width:100% ;
-	height: 100%;
-}
+
 
 .interview-link, .interview-link:hover {
 	color: #ffffff; 
@@ -463,12 +486,12 @@ ul.topnav li.right {float: right;  margin-left: -50px;}
 
 /*-----------main interviewe frame---------------*/
 .main-interview-frame {
-	background-color: #f8f8f8;
+	background-color: #f3f3f3;
 }
 
 .main-video {
-	margin-top: 20px;
-    margin-bottom: 20px;
+	margin-top: 30px;
+    
 }
 
 
@@ -482,6 +505,11 @@ ul.topnav li.right {float: right;  margin-left: -50px;}
  	color: #000000;
     background-color: #ffffff;   
     width:100%;
+}
+
+.playlist_container h1 {
+	margin-bottom: 5px;
+
 }
 
 .playlist {
@@ -520,6 +548,11 @@ ul.topnav li.right {float: right;  margin-left: -50px;}
 	color:#999;
 }
 
+.about_us h1 { 
+  margin-bottom: 5px;
+ }
+
+
 .img_about_us_1 {margin-top: 20px;}
 .img_about_us_2 {margin-top: 20px; }
 .img_about_us_3 {margin-top: 20px;}
@@ -531,149 +564,81 @@ ul.topnav li.right {float: right;  margin-left: -50px;}
 .img_about_us_8 {margin-top: 20px;}
 .img_about_us_9 {margin-top: 20px;}
 /* --=======================REDTHREAD initiative ==================--*/
-.tranparent_layer {
-  background-color:rgba(1,0,0,.8);
- 
-}
 
-
-
-.logo_center {
-	margin-top:40px;
-
-
-   }
 
 .redthread-facts {
 	background-image:url('assets/logo/redthread-initiatve.png');
+	background-color:rgba(0,0,0,0.7);
 	background-repeat:  no-repeat;
-	back
-
+	background-position: center center;
 }
 
+.redthread-facts-hover {
+	background-color:rgba(0,0,0,0.7);
+	opacity: 0.9;
+}
+
+
 .redthread-facts h1 { color:#ffffff; }
-.redthread-facts h2 { color:#ffffff; }
+.redthread-facts h1:last-child { color:#ffffff; margin-bottom: 0px; }
+.redthread-facts h2 { color:#ffffff; line-height: 20px; }
 .redthread-facts h3 { color:#ffffff; }
 
 
 
 
-.four-hundred {
-	display: inline-block;
-	position: relative;
-    font-family: "century gothic";
-   
-    font-size: 2.8rem;
-    line-height: 1.2em;
-}
 
 
-.design_firms {
-	display: inline-block;
-	font-family: "century gothic";
-	font-size: 1.4rem;
-	line-height: 1.2em;
-	margin-top:40px;
-	
-}
-
-
-@media and screen (max-width:400px) {
-
-
-	
-
-}
-
-@media screen (min-width:401px) and (max-width:600px) {
-
-
-	.design_firms {
-		display: inline-block;
-		font-family: "century gothic";
-		font-size: 1px;
-		line-height: 1.2em;
-		margin-top:1.2em;
-	}
-
-
-
-	.four-hundred {
-		display: inline-block;
-		position: relative;
-   	    font-family: "century gothic";
-  	    font-size: 1em;
-        line-height:1.2em;
-    }
-
-}
 
 /* ---==============contact us ====================--*/
 	
 .contact_us {
 	background-color: #f8f8f8;
 	color: #333;
+	
 	width: 100%;
-	height: 400px;
 	line-height: 3em;
 	
 }
+
+
+
+
 .sentence {
-		color:#999;
-	
-	
+	color:#999;
 	line-height: 1.2em;
-
-	margin-top:3.2em;
-
-
-
+	margin-bottom: auto;
+	margin-top: auto;
+	
 }
+
+
 
 
 .social_connect {
 
-	
 	position:relative;
-    
-	line-height: .2em;
-	
+   	line-height: .2em;
 	font-family: "century gothic";
-	
 	margin-top: 0px;
 
 }
 
-.contact_word {
-	font-family: "century gothic";
-   font-weight: 10;
-   margin-top: 0px;
-	color:#333333;
-}
 
-.jumbotron {
-   border:3px solid green;
-   width: 100%;
-   background-color: rgba(0,0,0,0);
-   margin-bottom: 0px;
-}
-
-
-/*@media screem and (min-width:600px ) {
-
-	.social_connect , .sentence {
-		width:50%;
-		margin-left:100px; 
-	}
-}
 
 /* ======footer ==============*/
 
 .footer{
-	background-color:#323232;
+	background-color:#e12227;
 	height: 50px;
-	padding:2px;
-	
+	padding:2px;	
 }
 
+.footer h2 {
+	color:#ffffff;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 12px;
+
+} 
 

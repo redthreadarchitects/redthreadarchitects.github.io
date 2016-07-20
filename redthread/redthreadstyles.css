@@ -312,7 +312,6 @@ h3 {
 		padding-top:20px;
 		padding-bottom: 2px;
 	}
-   
   
 }
 
@@ -375,6 +374,7 @@ ul.topnav li.icon {display: none;}
   ul.topnav.responsive li {
     float: none;
     display: block;
+    border:1px solid red;
     
   }
   ul.topnav.responsive li a {
@@ -386,42 +386,9 @@ ul.topnav li.icon {display: none;}
 }
 
 
-
-
-
-
-
-
-
-
-  
- 
-.navbar-about-btn h3 {
-	display:inline-block;
-
-  border-style: solid;
-  border-width: 1px;
-  color:#ffffff;
-  padding:1.2em;
-
- 
-  
-  
-  border-color: #ffffff;
-  font-color: #ffffff;
-}
-
-
-
  a, a:hover {
 	
 	text-decoration: none;
-}
-
-
-.logo {
-	
-	
 }
 
 
@@ -621,15 +588,14 @@ ul.topnav li.icon {display: none;}
 
 .footer{
 	background-color:#e12227;
-	height: 50px;
-	padding:2px;	
+	padding:1em;
 }
 
 .footer h2 {
 	color:#ffffff;
-	margin-top: 0px;
-	margin-bottom: 0px;
-	padding-top: 12px;
+	
+	
+	font-weight: bold;
 
 } 
 

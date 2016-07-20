@@ -72,6 +72,21 @@ $(document).ready(function(){
 });
 </script>
 <!-- End of SMOOTH SCROLL -->
+
+<!--menu slide-->
+
+  <script>
+  function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+  }
+  </script>
+
+<!--menu slide ends-->
    
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -84,33 +99,17 @@ $(document).ready(function(){
   <body>
       
     <div class="big_canvas">
-       <nav class="navbar-own">
-          <ul class="topnav">
-            <li><a  href="#"><img class="logo" src="assets/logo/logo.svg"> </a></li>
-            <li class="right"><a class="about-link" href="#contact"> <div class="navbar-about-btn"><h3>CONTACT</h3></div></a></li>
-            <li class="right"><a class="about-link" href="#about"> <div class="navbar-about-btn"><h3>ABOUT</h3></div></a></li>
-            
-          </ul>
-      </nav>
-    
-      <nav class="navbar-small">
+      <ul class="topnav" id="myTopnav">
+  <li><a class="active" href="#home"><img  class="logo" src="assets/logo/logo.svg" ></a></li>
+  
+  <li><a href="#contact"><h3>CONTACT</h3></a></li>
+  <li><a href="#about"><h3>ABOUT</h3></a></li>
+  <li class="icon">
+    <a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a>
+  </li>
+</ul>
 
-         <ul>
-           <li><a  href="#"><img class="logo" src="assets/logo/logo.svg"> </a></li>
-           <li>
-              <div class="dropdown">
-                <div><a href=#><img src="assets/logo/dropdown-icon.png" width=30px height=20px></a></div>
-                <div class="dropdown-content">
-                  <ul>
-                      <li><a href="#about" style="text-decoration:none; color:#ffffff"> ABOUT</a></li>
-                      <li><a href="#contact" style="text-decoration:none; color:#ffffff"> CONTACT</a></li>
-                  </ul>
-                </div>
-              </div>  
-            </li>
-         </ul>
-       </nav>
-    
+
 
       <div class="container" >
 
@@ -146,6 +145,7 @@ $(document).ready(function(){
           <div class="col-lg-4   col-xs-12 col-sm-6 col-md-4  ">
             <br />
              <div class="embed-responsive embed-responsive-16by9">
+             
                   <iframe src="https://www.youtube.com/embed/8f_MLtcoLRs" frameborder="0" allowfullscreen></iframe>
               </div>
                  <h2 class="text-left video-title">In conversation with DDIR   I   Full - Interview   </h2>
@@ -283,15 +283,15 @@ $(document).ready(function(){
     </div> <!--</div>--><!--redthread-facts-->
 
     <!-- =================================contact us==============================-->
-    <div class="contact_us  " id="contact" style="border:5px dotted blue">  
+    <div class="contact_us  " id="contact" >  
         <div class=" container">
             <div class="col-md-6 col-lg-6 col-sm-6 text-center sentence">
               <h1>Quit wandering. <br/>Start connecting.</h1>
             </div>
             <div class="col-md-6 col-lg-6 col-sm-6 text-center social_connect">
-              <h1>Contact Us</h1>
+              <h1 >Contact Us</h1>
               <div> 
-                <a href="mailto:redthreadarchitects@gmail.com"><img class="img_align" src="assets/logo/gmail.svg" alt="Generic placeholder image" width="50" height="50">  </a>
+                <a href="www.instagram.com"><img class="img_align" src="assets/logo/instagram.svg" alt="Generic placeholder image" width="50" height="50">  </a>
                 <a href="https://www.facebook.com/ArchitectsEcosystem/photos/a.776686682465776.1073741825.776607129140398/776686689132442/?type=3&source=11"><img class="img_align" style="margin-left: 5px; " src="assets/logo/facebook.svg" alt="Generic placeholder image" width="50" height="50">  </a> 
               </div>
             </div>

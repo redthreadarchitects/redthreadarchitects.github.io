@@ -87,7 +87,8 @@ h3 {
 		color: #ffffff;
 	}
    
-
+ 
+.contact_us span { display: block; }
    
 }
 
@@ -133,7 +134,8 @@ h3 {
 	}
 
 
-
+  
+.contact_us span { display: block; }
     
 
    
@@ -192,6 +194,7 @@ h3 {
  
      
     
+.contact_us span { display: block; }
 
    
 }
@@ -247,10 +250,6 @@ h3 {
 /*=====================at 768px=========================*/
 @media screen and (min-width:768px) {
 
-	.contact_us .container {
-		padding-top: 40px;
-		padding-top: 40px;
-	}
 
 
 }
@@ -263,7 +262,7 @@ h3 {
 
 
    h1 {
-	    	font-size: 50px;
+	    	font-size: 40px;
 	    	
 	  }
 
@@ -279,7 +278,7 @@ h3 {
 
    
 
-	.featured { margin-top: 30%; margin-left: 0px;}     
+	.featured { margin-top: 38%; margin-left: 0px;}     
     .featured .f1 {display:block; font-weight: bold;  font-size:50px ; line-height: 1.2em; margin-left: -3px; color: #ffffff; }
     .featured .f2 { letter-spacing: 0.3px; display:block; font-size:18px ;    color: #ffffff;}
     .featured h3 {font-size:14px ; font-weight: 600;}
@@ -292,6 +291,10 @@ h3 {
 	
    }
    
+   .playlist_container h2 {
+		font-size: 14px;	
+
+}
 
 
 	.design_firms {
@@ -302,11 +305,11 @@ h3 {
 
 	.contact_us h1 {
 		font-size: 36px;
-		padding-top: 50px;
-		padding-bottom: 50px;
+		
 	}
 
 	
+.contact_us span { display: inline; }
 
 	.social_connect h1 {
 		padding-top:20px;
@@ -329,13 +332,13 @@ ul.topnav {
   position:absolute;
   width:100%;
   color:red;
-  border-bottom: 1px solid #ffffff;
+ 
   }
 
 ul.topnav li:first-child {float: left;}
 ul.topnav li {float: right; }
 
-ul.topnav li a h3 { color:#ffffff; font-weight: bold;  }
+ul.topnav li a h3 { color:#ffffff; font-weight: bold; letter-spacing: 1px;}
 
 ul.topnav li a {
   display: inline-block;
@@ -350,7 +353,7 @@ ul.topnav li a {
 
 
 
-ul.topnav li a:hover {background-color: #555;}
+ul.topnav li a:hover {}
 
 ul.topnav li.icon {display: none;}
 
@@ -467,6 +470,8 @@ ul.topnav li.icon {display: none;}
 
 }
 
+
+
 .playlist {
    
 
@@ -505,6 +510,14 @@ ul.topnav li.icon {display: none;}
 
 .about_us h1 { 
   margin-bottom: 5px;
+ }
+
+ .about_us h2 { 
+  letter-spacing: 0.5px;
+ }
+
+.about_us p { 
+  letter-spacing: s;
  }
 
 
@@ -556,7 +569,10 @@ ul.topnav li.icon {display: none;}
 	
 }
 
-
+.contact_us .container {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
 
 
 .sentence {
@@ -588,14 +604,24 @@ ul.topnav li.icon {display: none;}
 
 .footer{
 	background-color:#e12227;
-	padding:1em;
+	
 }
 
+.footer .container {
+	padding-bottom: 0;
+}
 .footer h2 {
 	color:#ffffff;
 	
-	
-	font-weight: bold;
+	display: inline-block;
+	font-weight: 600;
 
 } 
+
+.footer img {
+	display: inline;
+	margin-right: 15px;
+	
+	margin-bottom: 5px;
+}
 

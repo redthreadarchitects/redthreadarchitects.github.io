@@ -116,18 +116,18 @@ $(document).ready(function(){
 
   
     <div class="big_canvas">
-      <nav class="main" >
-         <div class="container" style="border:1px solid yellow;">
-           <ul  class="main_list" style="border:2px dotted green;">
+      <nav class="main"  >
+         <div class="container" >
+           <ul  class="main_list" >
        
               <li><a class="active" href="https://redthreadarchitects.github.io/redthread/redthread.html"><img  class="logo" src="assets/logo/logo.svg" ></a></li>
-              <li><a href="#"><h3>LOGIN</h3></a></li>
-              <li><a href="#"><h3>SIGNUP</h3></a></li>
+             <!-- <li><a href="#"><h3>LOGIN</h3></a></li>
+              <li><a href="#"><h3>SIGNUP</h3></a></li> -->
               <li><a href="#contact"><h3>CONTACT</h3></a></li>
               <li><a href="#about"><h3>ABOUT</h3></a></li>
-              <li><a href="#"><h3>INTERVIEWS</h3></a></li>
-              <li><a href="#"><h3>PORTFOLIOS</h3></a></li>
-              <li><a href="#"><h3>JOBS</h3></a></li>
+              <li><a href="#interviews"><h3>INTERVIEWS</h3></a></li>
+             <!-- <li><a href="#"><h3>PORTFOLIOS</h3></a></li>
+              <li><a href="#"><h3>JOBS</h3></a></li> -->
            </ul>
          </div>
       </nav>
@@ -147,12 +147,12 @@ $(document).ready(function(){
          
          <ul >
             <li onclick="open_function()"><span >&times</span></li>
-             <li><a href="#"><h3>JOBS</h3></a></li>
-            <li><a href="#"><h3>INTERVIEWS</h3></a></li>
-            <li><a href="#"><h3>PORTFOLIOS</h3></a></li>
+            <!-- <li><a href="#"><h3>JOBS</h3></a></li> -->
+            <li><a href="#interviews"><h3>INTERVIEWS</h3></a></li>
+            <!--<li><a href="#"><h3>PORTFOLIOS</h3></a></li> -->
             <li><a href="#contact"><h3>CONTACT</h3></a></li>
             <li><a href="#about"><h3>ABOUT</h3></a></li>
-             <li><a href="#"><h3>SIGNUP</h3></a></li>
+            <!-- <li><a href="#"><h3>SIGNUP</h3></a></li> -->
          </ul >
       </div>
 
@@ -197,13 +197,13 @@ $(document).ready(function(){
       </div> <!---container -->
     </div>  <!---bigcanvas end -->
   
-    <div class="main-interview-frame">
+    <div class="main-interview-frame" id="main_interview">
       <div class="container"> <!-- cover ---->
 
         <!-- Main video  --->
         <!-- 16:9 aspect ratio -->
       <div class="col-lg-12   col-xs-12 col-sm-12 col-md-12">
-        <div class=" main-video embed-responsive embed-responsive-16by9 " id="main_interview">
+        <div class=" main-video embed-responsive embed-responsive-16by9 " >
        
           <iframe  class="embed-responsive-item" src="https://www.youtube.com/embed/8f_MLtcoLRs?showinfo=0&amp;modestbranding=0&amp;vq=&amp;rel=0" frameborder="0" allowfullscreen></iframe>
         </div>
@@ -214,7 +214,7 @@ $(document).ready(function(){
 
     <!-- video playlist -->
      
-    <div class="playlist_container">  
+    <div class="playlist_container" id="interviews">  
       <div class="container " > 
         <h1 class="text-center"> Interviews </h1>
        

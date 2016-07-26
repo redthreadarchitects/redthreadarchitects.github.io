@@ -89,6 +89,20 @@ $(document).ready(function(){
 
 
 <!--menu slide ends-->
+
+<!--sidemenu-->
+ <script>
+       function open_function() {
+          var sidenav_content_id = document.getElementById("sidenav");
+          sidenav_content_id.style.width == "0px" ? sidenav_content_id.style.width = "150px" : sidenav_content_id.style.width = "0px" ;
+
+          
+       }
+      </script>
+
+
+
+<!--sidemenu ends-->
    
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -99,10 +113,55 @@ $(document).ready(function(){
   </head>
 
   <body>
-      
+
+  
     <div class="big_canvas">
-      
-      <ul class="topnav" id="myTopnav">
+      <nav class="main" >
+         <div class="container" style="border:1px solid yellow;">
+           <ul  class="main_list" style="border:2px dotted green;">
+       
+              <li><a class="active" href="https://redthreadarchitects.github.io/redthread/redthread.html"><img  class="logo" src="assets/logo/logo.svg" ></a></li>
+              <li><a href="#"><h3>LOGIN</h3></a></li>
+              <li><a href="#"><h3>SIGNUP</h3></a></li>
+              <li><a href="#contact"><h3>CONTACT</h3></a></li>
+              <li><a href="#about"><h3>ABOUT</h3></a></li>
+              <li><a href="#"><h3>INTERVIEWS</h3></a></li>
+              <li><a href="#"><h3>PORTFOLIOS</h3></a></li>
+              <li><a href="#"><h3>JOBS</h3></a></li>
+           </ul>
+         </div>
+      </nav>
+
+
+      <nav class="submenu">
+       <div class="container">
+          <ul >
+            <li><a class="active" href="https://redthreadarchitects.github.io/redthread/redthread.html"><img  class="logo" src="assets/logo/logo.svg" ></a></li>
+            <li class="icon"><a href="javascript:void(0);"  onclick="open_function()"><img  src="assets/logo/dropdown-icon.png" width="25px" height="20px"></a>
+            </li>
+          </ul>
+        </div>    
+      </nav>
+
+      <div  id="sidenav" class="sidenav-content">
+         
+         <ul >
+            <li onclick="open_function()"><span >&times</span></li>
+             <li><a href="#"><h3>JOBS</h3></a></li>
+            <li><a href="#"><h3>INTERVIEWS</h3></a></li>
+            <li><a href="#"><h3>PORTFOLIOS</h3></a></li>
+            <li><a href="#contact"><h3>CONTACT</h3></a></li>
+            <li><a href="#about"><h3>ABOUT</h3></a></li>
+             <li><a href="#"><h3>SIGNUP</h3></a></li>
+         </ul >
+      </div>
+
+
+
+
+
+
+      <!--<ul class="topnav" id="myTopnav">
       <div class="container" >
        <li><a class="active" href="https://redthreadarchitects.github.io/redthread/redthread.html"><img  class="logo" src="assets/logo/logo.svg" ></a></li>
 
@@ -123,7 +182,7 @@ $(document).ready(function(){
        </li>
 
    </div>
-    </ul>
+    </ul>-->
 
 
       <div class="container" >
@@ -143,11 +202,13 @@ $(document).ready(function(){
 
         <!-- Main video  --->
         <!-- 16:9 aspect ratio -->
-        <div class=" main-video embed-responsive embed-responsive-16by9" id="main_interview">
+      <div class="col-lg-12   col-xs-12 col-sm-12 col-md-12">
+        <div class=" main-video embed-responsive embed-responsive-16by9 " id="main_interview">
        
           <iframe  class="embed-responsive-item" src="https://www.youtube.com/embed/8f_MLtcoLRs?showinfo=0&amp;modestbranding=0&amp;vq=&amp;rel=0" frameborder="0" allowfullscreen></iframe>
         </div>
-      </div> 
+      </div> <!--col-->
+      </div>
     </div>
     <!--container and main_interview_frame -->
 
@@ -162,7 +223,7 @@ $(document).ready(function(){
             <br />
              <div class="embed-responsive embed-responsive-16by9">
 
-                  <iframe src="https://www.youtube.com/embed/8f_MLtcoLRs?showinfo=0&amp;modestbranding=0&amp;vq=&amp;rel=0" frameborder="0" allowfullscreen></iframe>
+                  <iframe src="https://www.youtube.com/embed/8f_MLtcoLRs?showinfo=0&amp;modestbranding=1&amp;vq=&amp;rel=0" frameborder="0" allowfullscreen></iframe>
               </div>
                  <h2 class="text-left ">In conversation with Dominic Dube <span> DDIR   I   Full - Interview </span>  </h2>
                  <p class="text-left video-excerpt"></p>
@@ -330,22 +391,22 @@ $(document).ready(function(){
         
         <div class="container">
         
-          <div  class="col-xs-12 col-sm-5 col-md-6 col-lg-6 follow"  >
+          <div  class="col-xs-12 col-sm-5 col-md-6 col-lg-6 follow"  border:2px solid green;" >
             <h2  >Follow us</h2>
              
                
-                 <a href="https://www.facebook.com/redthreadarchitects/"><img class="img_align"  src="assets/logo/facebook.svg" alt="Generic placeholder image" width="25" height="25">  </a> 
+                 <a href="https://www.facebook.com/redthreadarchitects/" ><img class="img_align"  src="assets/logo/facebook.svg" alt="Generic placeholder image" width="25" height="25">  </a> 
 
                  <a href="https://www.instagram.com/redthreadarchitects/"><img class="img_align"  src="assets/logo/instagram.svg" alt="Generic placeholder image" width="25" height="25">  </a>
 
                  <a href="https://www.facebook.com/redthreadarchitects/"><img class="img_align"  src="assets/logo/pinterest.svg" alt="Generic placeholder image" width="25" height="25">  </a>
 
-                 <a href="https://www.instagram.com/redthreadarchitects/"><img class="img_align"  src="assets/logo/twitter.svg" alt="Generic placeholder image" width="25" height="25">  </a>
+                 <a href="https://www.instagram.com/redthreadarchitects/"><img class="img_align"  src="assets/logo/twitter.svg" alt="Generic placeholder image" width="25" height="25" style="margin-right:0px;">  </a>
             </div> 
 
-             <div  class="col-xs-12 col-sm-7 col-md-6 col-lg-6 copyright" >
+             <div  class="col-xs-12 col-sm-7 col-md-6 col-lg-6 copyright"  border:2px solid green;" >
             <a class="active" href="#home"><img   src="assets/logo/LOGO.jpg" width="30px" height="30px" ></a>
-            <h2 >Copyright &copy; 2016 redthreadarchitects </h2>
+            <h2  >Copyright &copy; 2016 redthreadarchitects </h2>
          </div>
         </div>
     </footer>   

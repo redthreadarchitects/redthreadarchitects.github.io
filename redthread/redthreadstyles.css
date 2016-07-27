@@ -276,7 +276,7 @@ h3 {
 	font-size: 14px;
    }
 
-   	.featured { margin-top: 40%; }
+   	.featured { margin-top: 38%; }
     .featured .f1 {display:block; font-weight: bold;  font-size:36px ; line-height: 1.2em; margin-left: -3px; color: #ffffff; }
     .featured .f2 { letter-spacing: 0.3px; display:block; font-size:16px ;  color: #ffffff;}
     .featured h3 {font-size:12px ;  font-weight: bold;letter-spacing:1px;}
@@ -346,7 +346,7 @@ h3 {
 
    
 
-	.featured { margin-top: 36%; }     
+	.featured { margin-top: 35%; }     
     .featured .f1 {display:block; font-weight: bold;  font-size:50px ; line-height: 1.2em; margin-left: -3px; color: #ffffff; }
     .featured .f2 { letter-spacing: 0.3px; display:block; font-size:18px ;    color: #ffffff;}
     .featured h3 {font-size:14px ; font-weight: bold;letter-spacing:1px; }

@@ -11,11 +11,6 @@ body{
    
 }
 
-.col-lg-4 {
-   width:32%;
-}
-
-
 ul {
 	padding: 0;
 	margin:0;
@@ -99,7 +94,7 @@ h3 {
     
 
     .details {padding-top: 40px;padding-bottom: 30px; }    
-   	.featured {padding-top: 0px;padding-bottom: 0px;}
+   	.featured {padding-top: 50px;padding-bottom: 40px;}
     .featured .f1 {display:block; font-weight: bold;  font-size:24px ; line-height: 1.5em; margin-left: -3px; color: #ffffff; font-weight:600;  }
     .featured .f2 { letter-spacing: 0.3px; display:block; font-size:14px ;  color: #ffffff; }
     .featured h3 {font-size:12px ; font-weight: 600;}
@@ -170,7 +165,7 @@ h3 {
 
 
 	.details { padding-top: 40px;padding-bottom: 30px; }
-   	.featured {padding-top: 0px;padding-bottom: 0px;}
+   	.featured {padding-top: 50px;padding-bottom: 40px;}
     .featured .f1 {display:block; font-weight: bold;  font-size:24px ; line-height: 1.5em; margin-left: -3px; color: #ffffff; }
     .featured .f2 { letter-spacing: 0.3px; display:block; font-size:14px ;  color: #ffffff;}
     .featured h3 {font-size:12px ; font-weight: 600;}
@@ -288,7 +283,7 @@ h3 {
    .big_canvas { background-position: center center; }
 	
 	.details { padding-top: 40px;padding-bottom: 30px; }
-   	.featured {padding-top: 0px;padding-bottom: 0px;}
+   	.featured {padding-top: 50px;padding-bottom: 40px;}
     .featured .f1 {display:block; font-weight: bold;  font-size:36px ; line-height: 1.5em; margin-left: -3px; color: #ffffff; }
     .featured .f2 { letter-spacing: 0.3px; display:block; font-size:16px ;  color: #ffffff;}
     .featured h3 {font-size:12px ;  font-weight: bold;letter-spacing:1px;}
@@ -317,7 +312,7 @@ h3 {
 /*=====================at 768px=========================*/
 @media screen and (min-width:768px) {
 
-.featured {padding-top: 50px;padding-bottom: 40px;}
+.featured {padding-top: 100px;padding-bottom: 80px;}
 
 }
 

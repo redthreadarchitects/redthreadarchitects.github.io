@@ -11,6 +11,11 @@ body{
    
 }
 
+.col-lg-4 {
+   width:32%;
+}
+
+
 ul {
 	padding: 0;
 	margin:0;
@@ -93,7 +98,7 @@ h3 {
 
     
 
-    .details { bottom:0px;width:100%;padding-top: 40px;padding-bottom: 30px; }    
+    .details {padding-top: 40px;padding-bottom: 30px; }    
    	.featured {padding-top: 0px;padding-bottom: 0px;}
     .featured .f1 {display:block; font-weight: bold;  font-size:24px ; line-height: 1.5em; margin-left: -3px; color: #ffffff; font-weight:600;  }
     .featured .f2 { letter-spacing: 0.3px; display:block; font-size:14px ;  color: #ffffff; }
@@ -164,7 +169,7 @@ h3 {
    }
 
 
-	.details { bottom:0px;width:100%;padding-top: 40px;padding-bottom: 30px; }
+	.details { padding-top: 40px;padding-bottom: 30px; }
    	.featured {padding-top: 0px;padding-bottom: 0px;}
     .featured .f1 {display:block; font-weight: bold;  font-size:24px ; line-height: 1.5em; margin-left: -3px; color: #ffffff; }
     .featured .f2 { letter-spacing: 0.3px; display:block; font-size:14px ;  color: #ffffff;}
@@ -282,7 +287,7 @@ h3 {
 
    .big_canvas { background-position: center center; }
 	
-	.details { bottom:0px;width:100%;padding-top: 40px;padding-bottom: 30px; }
+	.details { padding-top: 40px;padding-bottom: 30px; }
    	.featured {padding-top: 0px;padding-bottom: 0px;}
     .featured .f1 {display:block; font-weight: bold;  font-size:36px ; line-height: 1.5em; margin-left: -3px; color: #ffffff; }
     .featured .f2 { letter-spacing: 0.3px; display:block; font-size:16px ;  color: #ffffff;}
@@ -538,14 +543,18 @@ a, a:hover {
  .big_canvas {
 
     background-image: url('assets/logo/canvas.png');
-    
 	background-size: cover;
     position: relative;
-   
 	width:100% ;
-	height: 95vh;
+	height: 100vh;
 }
 
+
+.details {
+	position:absolute;
+	bottom:0px;
+	width:100%;
+}
 
 
 .interview-link, .interview-link:hover {

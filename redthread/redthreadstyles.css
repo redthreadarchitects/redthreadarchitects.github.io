@@ -405,7 +405,12 @@ h3 {
 }
 
 
-
+/*=====================at 992px and 1200px=========================*/
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+	.about_us .col-lg-4 {
+		width:32.4%;
+	}
+}
 
 
 /*===========================MEDIA QUERIES ENDS=======================*/

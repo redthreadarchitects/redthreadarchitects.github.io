@@ -98,7 +98,7 @@ h3 {
     .featured .f1 {display:block; font-weight: bold;  font-size:24px ; line-height: 1.5em; margin-left: -3px; color: #ffffff; font-weight:600;  }
     .featured .f2 { letter-spacing: 0.3px; display:block; font-size:14px ;  color: #ffffff; }
     .featured h3 {font-size:12px ; font-weight: 600;}
-    .featured a div {margin-top: 20px;}
+    .featured a div {margin-top: 25px;}
 
 	
 
@@ -226,7 +226,7 @@ h3 {
     .featured .f1 {display:block; font-weight: bold;  font-size:24px ; line-height: 1.5em; margin-left: -3px; color: #ffffff; }
     .featured .f2 { letter-spacing: 0.3px; display:block; font-size:14px ;  color: #ffffff;}
     .featured h3 {font-size:12px ; font-weight: 600;}
-    .featured a div {margin-top: 20px;}
+    .featured a div {margin-top: 25px;}
 
 
 
@@ -284,10 +284,10 @@ h3 {
 	
 	.details { padding-top: 40px;padding-bottom: 30px; }
    	.featured {padding-top: 50px;padding-bottom: 40px;}
-    .featured .f1 {display:block; font-weight: bold;  font-size:36px ; line-height: 1.5em; margin-left: -3px; color: #ffffff; }
+    .featured .f1 {display:block; font-weight: bold;  font-size:36px ; line-height: 1.2em; margin-left: -3px; color: #ffffff; }
     .featured .f2 { letter-spacing: 0.3px; display:block; font-size:16px ;  color: #ffffff;}
     .featured h3 {font-size:12px ;  font-weight: bold;letter-spacing:1px;}
-    .featured a div {margin-top: 20px;}
+    .featured a div {margin-top: 25px;}
 
 
 
@@ -351,15 +351,16 @@ h3 {
 
     .details { bottom:0px;width:100%;padding-top: 40px;padding-bottom: 30px;  }    
 	.featured {padding-top: 50px;padding-bottom: 40px;}     
-    .featured .f1 {display:block; font-weight: bold;  font-size:50px ; line-height: 1.5em; margin-left: -3px; color: #ffffff; }
-    .featured .f2 { letter-spacing: 0.3px; display:block; font-size:18px ;    color: #ffffff;}
+    .featured .f1 {display:block; font-weight: bold;  font-size:50px ; line-height: 1.2em; margin-left: -3px; color: #ffffff; }
+    .featured .f2 { letter-spacing: 0.8px; display:block; font-size:18px ;    color: #ffffff;}
     .featured h3 {font-size:14px ; font-weight: bold;letter-spacing:1px; }
-    .featured a div {margin-top: 20px;}
+    .featured a div {margin-top: 25px;}
 
 	.logo { 
 		width:300px;
 		 height:30px; 
-		 margin:1.6% 0%;
+		 margin-bottom: 6px;
+		
 	
    }
    
@@ -418,6 +419,7 @@ h3 {
 
      nav.main .container {
        padding-bottom: 0px;
+       border-bottom: 1px solid rgba(255,255,255,0.2);
      }
 
 
@@ -427,40 +429,36 @@ h3 {
 
      }
 
-     li a h3{
+
+
+    nav.main li a h3{
         display: inline-block;
       color: #ffffff;
       text-align: center;
        letter-spacing: 1px;
       text-decoration: none;
       font-weight: bold;
-      padding: .1em;
-      margin-right: .5em
+      padding: 0em;
+      margin: 0px;
+      margin-left: 3em;
+     }
 
 
+
+     .main_list {
+     	height: 100px;
+     	line-height: 100px;
 
 
      }
 
-
-     li  span{
-        display: inline-block;
-      color: #ffffff;
-      text-align: center;
-        margin: ;
-      text-decoration: none;
-      transition: 6 s;
-      padding:.5em;
-      font-weight: bold;
-      font-size: 40px;
-
-
-     }
 
      .main_list li {
        display: inline-block;
-       padding:1em;
+       
+       vertical-align: middle;
        float:right;
+
       
      }
 
@@ -471,6 +469,10 @@ h3 {
 
        float: left;
      }
+
+
+     
+
 
       
 
@@ -484,9 +486,34 @@ h3 {
       height:100%;
       z-index: 1;
       transition:  width 1s ;
-
-
      }
+
+    
+     li  span{
+      display: inline-block;
+      color: #ffffff;
+      text-align: center;
+        margin: ;
+      text-decoration: none;
+      transition: 6 s;
+      padding:.5em;
+      font-weight: bold;
+      font-size: 40px;
+      cursor: pointer;
+     }
+
+    .sidenav-content li a h3{
+        display: block;
+        color: #ffffff;
+       letter-spacing: 1px;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 1em 0 1em 0;
+     
+     }
+
+
+
 
      .submenu .container {
        padding-bottom: 0px;
@@ -496,11 +523,11 @@ h3 {
 
      .submenu li {
       display: inline-block;
+      color:#ffffff;
       padding-top:15px;
       padding-bottom: 15px;
-      margin-top: auto;
-      margin-bottom: auto;
-     
+      margin-top: 20px;
+      margin-bottom: 20px;
      }
 
 
@@ -511,6 +538,8 @@ h3 {
      }
 
     
+   
+
 
       
 

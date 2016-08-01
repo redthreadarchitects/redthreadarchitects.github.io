@@ -568,6 +568,9 @@ a, a:hover {
 	display: inline-block;
 	
 }
+.all {
+	height: 100vh;
+}
 
  .big_canvas {
 
@@ -575,7 +578,7 @@ a, a:hover {
 	background-size: cover;
     position: relative;
 	width:100% ;
-	height: 100vh;
+	height: 100%;
 	transition: height;
 	    transition-duration: 250ms;
     transition-timing-function: ease;

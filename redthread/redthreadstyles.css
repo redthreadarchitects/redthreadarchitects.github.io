@@ -80,7 +80,7 @@ h3 {
 
    .big_canvas {
    	background-position: center center;
-
+   	height:530px;
    }
 
    nav.main {
@@ -105,8 +105,7 @@ h3 {
 	.logo { 
 		width:200px;
 		 height:20px; 
-		 top:30px;
-		 left:-10px;		
+		 		
    }
 
 
@@ -160,7 +159,7 @@ h3 {
 
    .big_canvas {
    	background-position: center center;
-
+   	height: 530px;
    }
 
 
@@ -222,6 +221,11 @@ h3 {
    }
 
 
+   .big_canvas {
+   	height:540px;
+   }
+ 
+
    	
     .featured .f1 {display:block; font-weight: bold;  font-size:24px ; line-height: 1.5em; margin-left: -3px; color: #ffffff; }
     .featured .f2 { letter-spacing: 0.3px; display:block; font-size:14px ;  color: #ffffff;}
@@ -250,8 +254,12 @@ h3 {
 	.logo { 
 		width:200px;
 		 height:20px; 
-		
-	
+   }
+
+
+
+   .big_canvas {
+   	height:540px;
    }
  
      
@@ -280,7 +288,7 @@ h3 {
    }
 
 
-   .big_canvas { background-position: center center; }
+   .big_canvas { background-position: center center;height:550px; }
 	
 	.details { padding-top: 40px;padding-bottom: 30px; }
    	.featured {padding-top: 50px;padding-bottom: 40px;}
@@ -314,6 +322,11 @@ h3 {
 
 .featured {padding-top: 100px;padding-bottom: 80px;}
 
+
+.big_canvas {
+   	height:550px;
+   }
+
 }
 
 
@@ -321,7 +334,11 @@ h3 {
 /*=====================at 800px=========================*/
 @media screen and (min-width:800px) {
 
-
+   
+   .big_canvas {
+   	height:550px;
+   }
+ 
 
    h1 {
 	    	font-size: 40px;
@@ -411,6 +428,10 @@ h3 {
 	.about_us .col-lg-4 {
 		width:32.4%;
 	}
+
+	.big_canvas {
+   	height:560px;
+   }
 }
 
 
@@ -568,9 +589,7 @@ a, a:hover {
 	display: inline-block;
 	
 }
-.all {
-	height: 100vh;
-}
+
 
  .big_canvas {
 
@@ -578,10 +597,7 @@ a, a:hover {
 	background-size: cover;
     position: relative;
 	width:100% ;
-	height: 100%;
-	transition: height;
-	    transition-duration: 250ms;
-    transition-timing-function: ease;
+	
 }
 
 

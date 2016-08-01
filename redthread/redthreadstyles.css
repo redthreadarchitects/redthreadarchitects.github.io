@@ -446,8 +446,8 @@ h3 {
 
 
      .main_list {
-     	height: 20%;
-     	line-height: 20%;
+     	height: 100px;
+     	line-height: 100px;
 
 
      }
@@ -575,7 +575,7 @@ a, a:hover {
 	background-size: cover;
     position: relative;
 	width:100% ;
-	height: 100vh;
+	height: 500px;
 }
 
 

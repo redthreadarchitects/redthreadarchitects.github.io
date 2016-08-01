@@ -2,21 +2,14 @@
 <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="35px" height="35px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35;" xml:space="preserve">
-<style type="text/css">
-<![CDATA[
-	.st0{opacity:0.4;}
-	.st1{fill:none;stroke:#000000;stroke-width:0.4;stroke-miterlimit:10;}
-]]>
-</style>
-<g class="st0">
-	<g>
-		<path class="st1" d="M27.189,34.135h7.181c0.287,0,0.514-0.231,0.514-0.516c0-0.283-0.231-0.515-0.515-0.515H27.17V19.73h4.2
-			L15.982,9.187L0.594,19.73h3.942v14.404h1.03h13.373V23.847h5.146v10.288H27.189 M15.853,28.989h-0.515H9.681v-4.63v-0.513h6.172
-			V28.989z"/>
-		<polygon class="st1" points="26.044,12.442 26.275,15 28.364,13.626 33.34,3.88 31.02,2.696 		"/>
-		<path class="st1" d="M33.929,0.665l-0.115-0.059c-0.544-0.277-1.341-0.382-1.614,0.152L31.647,1.84l2.32,1.184l0.552-1.081
-			C34.793,1.408,34.475,0.942,33.929,0.665z"/>
-	</g>
+	 width="35px" height="35px" viewBox="0 0 35 35" enable-background="new 0 0 35 35" xml:space="preserve">
+<g>
+	<path fill="none" stroke="#333333" stroke-width="0.4" stroke-miterlimit="10" d="M27.189,34.135h7.181
+		c0.287,0,0.514-0.23,0.514-0.516c0-0.283-0.231-0.516-0.515-0.516H27.17V19.73h4.2L15.982,9.187L0.594,19.73h3.942v14.403h1.03
+		h13.374V23.848h5.146v10.287H27.189 M15.853,28.989h-0.515H9.681v-4.63v-0.514h6.172V28.989z"/>
+	<polygon fill="none" stroke="#333333" stroke-width="0.4" stroke-miterlimit="10" points="26.044,12.442 26.275,15 28.363,13.626 
+		33.34,3.88 31.02,2.696 	"/>
+	<path fill="none" stroke="#333333" stroke-width="0.4" stroke-miterlimit="10" d="M33.93,0.665l-0.115-0.059
+		C33.27,0.329,32.473,0.224,32.2,0.758L31.646,1.84l2.32,1.184l0.553-1.081C34.793,1.408,34.475,0.942,33.93,0.665z"/>
 </g>
 </svg>
